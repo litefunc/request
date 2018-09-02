@@ -2,7 +2,9 @@ package request
 
 import (
 	"bytes"
-	"cloud/lib/logger"
+
+	"github.com/litefunc/logger"
+
 	"encoding/json"
 	"errors"
 	"io"
